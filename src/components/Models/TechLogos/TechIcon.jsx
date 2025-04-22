@@ -18,6 +18,9 @@ const TechIcon = ({ model }) => {
     }
   }, [scene]);
 
+  const modelPosition =
+    model.name === "GenAI Developer" ? [0, -1.5, 0] : [0, 0, 0];
+
   return (
     <Canvas>
       <ambientLight intensity={0.3} />
@@ -26,7 +29,11 @@ const TechIcon = ({ model }) => {
       <OrbitControls enableZoom={false} />
 
       <Float speed={5.5} rotationIntensity={0.5} floatIntensity={0.9}>
-        <group scale={model.scale} rotation={model.rotation}>
+        <group
+          scale={model.scale}
+          rotation={model.rotation}
+          position={modelPosition}
+        >
           <primitive object={scene.scene} />
         </group>
       </Float>

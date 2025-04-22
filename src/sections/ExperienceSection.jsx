@@ -93,7 +93,7 @@ const ExperienceSection = () => {
 
                         <p className="my-5 text-white-50">📅{card.date}</p>
 
-                        <p className="text-[#839cb5]" italic>
+                        <p className="text-[#839cb5] italic">
                           Responsibilities
                         </p>
 

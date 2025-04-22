@@ -16,9 +16,11 @@
     "@react-three/postprocessing": "^3.0.4",
     "@tailwindcss/vite": "^4.1.4",
     "gsap": "^3.12.7",
+    "postprocessing": "^6.37.2",
     "prettier": "^3.5.3",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-responsive": "^10.0.1",
     "tailwindcss": "^4.1.4",
     "three": "^0.175.0"
   },

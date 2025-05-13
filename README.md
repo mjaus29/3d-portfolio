@@ -20,8 +20,6 @@ Traditional developer portfolios often lack visual impact and fail to demonstrat
 
 This portfolio solves the problem of balancing impressive 3D elements with practical information display and smooth user experience, creating a memorable impression while still delivering essential information about skills, experience, and projects.
 
-Interactive 3D models, smooth animations, and a clean design that effectively showcases skills and projects.
-
 **Technologies Used:** React, Vite, Three.js, GSAP, Tailwind CSS, EmailJS
 
 ## 📖 Table of Contents
